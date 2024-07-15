@@ -47,7 +47,7 @@ let mailOptions = {
     subject: 'Solicitud de Rendición de cuentas',
     text: `Estimado/a,
     
-    Se informa que al día de ${new Date().toLocaleDateString()}, el profesor ${nombreCompleto} realizó una solicitud de rendición de cuentas para el proyecto ${descripcionProyecto}. A continuación, los archivos enviados por el profesor.
+    Se informa que el día de ${new Date().toLocaleDateString()}, el profesor ${nombreCompleto} realizó una solicitud de rendición de cuentas para el proyecto ${descripcionProyecto}. A continuación, los archivos enviados por el profesor.
     
     Esto es un mensaje automático.`,
     attachments: [
